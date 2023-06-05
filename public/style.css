@@ -53,9 +53,11 @@ body {
     border: 2px solid #1ab4b4;
     font-size: 25px;
     padding: 10px;
-    padding-inline: 100px;
+    width: 80%;
+    /* padding-inline: 100px; */
     border-radius: 35px;
     font-weight: 800;
+    margin-top: 20px;
 }
 .container button:hover {
     animation-name: buttonanim;

@@ -11,19 +11,24 @@
 <body>
     <div class="img"></div>
     <div class="space"></div>
-    <!-- <div class="img"></div> -->
     <div class="container">
         <h1 class="title">Приложение на знанията за клетката в селското стопанство</h1>
         <div class="space"></div>
-        <!-- <h1 class="title2">В този проект ще научите за:</h1>
-        <p>Производство на силаж</p> -->
-        <button id="btnn">Производство на силаж</button>
+        <h1 class="title2">Нашите теми</h1>
+        <button id="btn">Производство на силаж</button>
+        <button id="btn2">Биопестициди</button>
     </div>
 <script>
-    document.getElementById("btnn").addEventListener("mouseout", () => {
-        document.getElementById("btnn").classList.add("btn-anim2");
+    document.getElementById("btn").addEventListener("mouseout", () => {
+        document.getElementById("btn").classList.add("btn-anim2");
         setTimeout(() => {
-            document.getElementById("btnn").classList.remove("btn-anim2");
+            document.getElementById("btn").classList.remove("btn-anim2");
+        },1000)
+    })
+    document.getElementById("btn2").addEventListener("mouseout", () => {
+        document.getElementById("btn2").classList.add("btn-anim2");
+        setTimeout(() => {
+            document.getElementById("btn2").classList.remove("btn-anim2");
         },1000)
     })
 </script>
