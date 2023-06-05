@@ -20,21 +20,12 @@
         <button id="btnn">Производство на силаж</button>
     </div>
 <script>
-    console.log(document.getElementById("btnn"));
     document.getElementById("btnn").addEventListener("mouseout", () => {
-        console.log("sex");
         document.getElementById("btnn").classList.add("btn-anim2");
         setTimeout(() => {
             document.getElementById("btnn").classList.remove("btn-anim2");
         },1000)
     })
-    // function sexos() {
-    //     console.log("sex");
-    //     document.getElementById("btnn").classList.add("btn-anim2");
-    //     setTimeout(() => {
-    //         document.getElementById("btnn").classList.remove("btn-anim2");
-    //     },1000)
-    // }
 </script>
 </body>
 </html>
