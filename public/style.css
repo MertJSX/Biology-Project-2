@@ -1,0 +1,86 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    color: white;
+}
+body {
+    background-color: #1f1f1f;
+}
+.space {
+    height: 50px;
+}
+.container {
+    margin-inline: 20%;
+    text-align: center;
+    /* color: cyan; */
+}
+.container .title {
+    color: #1ab4b4;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 5px 5px black;
+}
+
+.img {
+    opacity: 0.2;
+    background-image: url("https://i.ytimg.com/vi/ZJ4tcPk4Gk0/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
+.container .title2 {
+    font-style:oblique;
+}
+
+.container p {
+    font-size: 25px;
+    text-decoration:underline;
+}
+.container button {
+    text-align: center;
+    color: white;
+    background-color: #2f2e2e;
+    border: 2px solid #1ab4b4;
+    font-size: 25px;
+    padding: 10px;
+    padding-inline: 100px;
+    border-radius: 35px;
+    font-weight: 800;
+}
+.container button:hover {
+    animation-name: buttonanim;
+    animation-duration: 1s;
+    background-color: #246b6b;
+}
+.btn-anim2 {
+    animation-name: buttonanim2;
+    animation-duration: 1s;
+}
+
+@keyframes buttonanim {
+    from {
+        background-color: #2f2e2e;
+    }
+    to {
+        background-color: #246b6b;
+    }
+}
+
+@keyframes buttonanim2 {
+    from {
+        background-color: #246b6b;
+    }
+    to {
+        background-color: #2f2e2e;
+    }
+}

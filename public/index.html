@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/892/892926.png" type="image/x-icon">
+    <title>Проект по Биология 2</title>
+</head>
+<body>
+    <div class="img"></div>
+    <div class="space"></div>
+    <!-- <div class="img"></div> -->
+    <div class="container">
+        <h1 class="title">Приложение на знанията за клетката в селското стопанство</h1>
+        <div class="space"></div>
+        <!-- <h1 class="title2">В този проект ще научите за:</h1>
+        <p>Производство на силаж</p> -->
+        <button id="btnn">Производство на силаж</button>
+    </div>
+<script>
+    console.log(document.getElementById("btnn"));
+    document.getElementById("btnn").addEventListener("mouseout", () => {
+        console.log("sex");
+        document.getElementById("btnn").classList.add("btn-anim2");
+        setTimeout(() => {
+            document.getElementById("btnn").classList.remove("btn-anim2");
+        },1000)
+    })
+    // function sexos() {
+    //     console.log("sex");
+    //     document.getElementById("btnn").classList.add("btn-anim2");
+    //     setTimeout(() => {
+    //         document.getElementById("btnn").classList.remove("btn-anim2");
+    //     },1000)
+    // }
+</script>
+</body>
+</html>
